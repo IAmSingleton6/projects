@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Home | Projects</title>
+            <meta name="description" content="Projects description">
+            <meta name="author" content="Projects">
+
+            <!-- Embed page for social media posts -->
+            <meta property="og:description" content="Projects description">
+            <meta property="og:title" content="Projects">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="http://www.Projects.com">
+            <meta property="og:image" content="http://www.Projects.com/img/logo.png">
+            <meta property=​"og:Projects" content=​"TSProjects.com">
+
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="">
+            <meta name="twitter:creator" content="">
+            <meta name="twitter:title" content="Projects">
+            <meta name="twitter:description" content="Projects description">
+            <meta name="twitter:image" content="http://www.Projects.com/img/logo.png">
+
+            <!-- Favicon -->
+            <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+            <!-- Page Style -->
+            <link rel="stylesheet" type="text/css" href="style.css?version=1">
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="rightVerticalLine">Home</a>
+            <a href="hot-potato.html">Hot Potato</a>
+            <a href="picross-3d.html">Picross 3D recreation</a>
+            <!-- <a href="fire-trucked-it.html">Fire-Trucked It</a> -->
+            <a href="javascript:void(0);" class="icon leftVerticalLine" onclick="myFunction()"><img src="img/menu.png" height="30" width="30" alt="Menu Button" aria-label="Menu Button"></img>
+            </a>
+        </div>
+
+        <!-- Description Section -->
+        <div class="descriptionDiv">
+
+            <!-- Section -->
+            <h2>Project Grid</h2>
+
+            <!-- Portfolio Grid -->
+            <div class="grid">
+                <!-- Portfolio Item -->
+                <a href="picross-3d.html" class="card">
+                    <div class="content">
+                        <img src="img/card1.png" alt="Card Image" height="390" width="390"></img>
+                        <div class="card-body">
+                            <div class="title">Picross 3D Recreation</div>
+                            <div class="description">Picross 3D from the DS, recreated in Unity with a focus on performance</div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Portfolio Item -->
+                <a href="hot-potato.html" class="card">
+                    <div class="content">
+                        <img src="img/card2.png" alt="Card Image" height="390" width="390"></img>
+                        <div class="card-body">
+                            <div class="title">Hot Potato</div>
+                            <div class="description">Online/Local multiplayer game - the potato is hot, so pass it to a friend, don't drop it!</div>
+                        </div>
+                    </div>
+                </a>
+
+
+                <!-- Portfolio Item -->
+                <!-- <a href="fire-trucked-it.html" class="card">
+                    <div class="content">
+                        <img src="" alt="Card Image" height="390" width="390"></img>
+                        <div class="card-body">
+                            <div class="title">Fire-Trucked It</div>
+                            <div class="description">Online/Local multiplayer game - Firefighters with your friends</div>
+                        </div>
+                    </div>
+                </a> -->
+            </div>
+        </div>
+
+        <!-- Share Your Socials -->
+        <!-- <div class="textBubbleDiv">
+            <p class="light">Follow @YourName :
+            <a href="https://www.twitter.com/YOUR_NAME" target="_blank"><img class="socialLink" src="img/twitter.png" alt="Twitter" height="25" width="25"></img></a>
+            <a href="https://www.facebook.com/YOUR_NAME" target="_blank"><img class="socialLink" src="img/facebook.png" alt="Facebook" height="25" width="25"></img></a>
+            <a href="https://www.youtube.com/YOUR_NAME" target="_blank"><img class="socialLink2" src="img/youtube.png" alt="YouTube" height="25" width="25"></img></a>
+            </p>
+        </div> -->
+
+        <div class="contact">
+            <div class="contact-body">
+                <!-- Section -->
+                <p>Email: <strong><a href="tommy.singleton2001@gmail.com">tommy.singleton2001@gmail.com</a></strong></p>
+            </div>
+        </div>
+
+        <!-- Navigation Script -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
